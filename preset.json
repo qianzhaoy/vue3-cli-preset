@@ -1,25 +1,23 @@
 {
-  "sass-ts-prettier-jest": {
-    "useConfigFiles": true,
-    "plugins": {
-      "@vue/cli-plugin-babel": {},
-      "@vue/cli-plugin-typescript": {
-        "classComponent": false,
-        "useTsWithBabel": true
-      },
-      "@vue/cli-plugin-router": {
-        "historyMode": true
-      },
-      "@vue/cli-plugin-vuex": {},
-      "@vue/cli-plugin-eslint": {
-        "config": "prettier",
-        "lintOn": [
-          "commit"
-        ]
-      },
-      "@vue/cli-plugin-unit-jest": {}
+  "useConfigFiles": true,
+  "plugins": {
+    "@vue/cli-plugin-babel": {},
+    "@vue/cli-plugin-typescript": {
+      "classComponent": false,
+      "useTsWithBabel": true
     },
-    "vueVersion": "3",
-    "cssPreprocessor": "node-sass"
-  }
+    "@vue/cli-plugin-router": {
+      "historyMode": true
+    },
+    "@vue/cli-plugin-vuex": {},
+    "@vue/cli-plugin-eslint": {
+      "config": "prettier",
+      "lintOn": [
+        "commit"
+      ]
+    },
+    "@vue/cli-plugin-unit-jest": {}
+  },
+  "vueVersion": "3",
+  "cssPreprocessor": "node-sass"
 }
