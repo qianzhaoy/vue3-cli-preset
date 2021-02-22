@@ -1,0 +1,23 @@
+{
+  "name": "vue3-cli-preset",
+  "version": "1.0.0",
+  "description": "vue-cli preset for vue3 project init",
+  "main": "constant.js",
+  "dependencies": {
+    "vue-cli-plugin-element-plus": "^0.0.13"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qianzhaoy/vue3-cli-preset.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qianzhaoy/vue3-cli-preset/issues"
+  },
+  "homepage": "https://github.com/qianzhaoy/vue3-cli-preset#readme"
+}

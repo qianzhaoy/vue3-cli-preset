@@ -1,0 +1,50 @@
+{
+  "_from": "vue-cli-plugin-element-plus",
+  "_id": "vue-cli-plugin-element-plus@0.0.13",
+  "_inBundle": false,
+  "_integrity": "sha1-2oKXdjc6rUJp/CO1e7OqBDvGd0Q=",
+  "_location": "/vue-cli-plugin-element-plus",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "vue-cli-plugin-element-plus",
+    "name": "vue-cli-plugin-element-plus",
+    "escapedName": "vue-cli-plugin-element-plus",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npm.taobao.org/vue-cli-plugin-element-plus/download/vue-cli-plugin-element-plus-0.0.13.tgz",
+  "_shasum": "da829776373aad4269fc23b57bb3aa043bc67744",
+  "_spec": "vue-cli-plugin-element-plus",
+  "_where": "/Users/qianzhaoyan/Desktop/Vue/vue3-cli-preset",
+  "bugs": {
+    "url": "https://github.com/element-plus/vue-cli-plugin-element-plus/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "vue-cli 4 plugin to add Element Plus",
+  "homepage": "https://github.com/element-plus/vue-cli-plugin-element-plus#readme",
+  "keywords": [
+    "element-plus",
+    "element",
+    "element-ui",
+    "vue",
+    "vue-cli",
+    "plugin",
+    "cli"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "vue-cli-plugin-element-plus",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/element-plus/vue-cli-plugin-element-plus.git"
+  },
+  "version": "0.0.13"
+}
