@@ -13,9 +13,10 @@ import { ElButton } from 'element-plus'
 <%_ if (options.lang !== 'en') { _%>
 import lang from 'element-plus/lib/locale/lang/<%= options.lang %>'
 import locale from 'element-plus/lib/locale'
+import { App } from 'vue'
 <%_ }} _%>
 
-export default (app) => {
+export default (app: App) => {
   <%_ if (options.import === 'full') { _%>
   <%_ if (options.lang !== 'en') { _%>
   app.use(ElementPlus, { locale })
