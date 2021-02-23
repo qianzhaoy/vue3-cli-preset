@@ -5,7 +5,6 @@ module.exports = function(api, opts, rootOptions) {
     './src/constants/enums.ts': './template/src/constants/enums.ts',
     './src/constants/config.ts': './template/src/constants/config.ts',
   })
-  if (opts.ui_lib)
 
   switch (opts.ui_lib) {
     case ELEMENT_PLUS:
