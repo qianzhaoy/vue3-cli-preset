@@ -39,7 +39,7 @@ module.exports = [
   {
     when: answers => answers.import === 'full',
     type: 'confirm',
-    name: '自定义主题',
+    name: 'customTheme',
     message: '是否覆写组件库的主题变量?',
     default: false,
   },

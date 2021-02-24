@@ -1,7 +1,7 @@
 module.exports = [
   'zh-cn',
   'en',
-  'af-za',
+  'af',
   'ar',
   'bg',
   'ca',
