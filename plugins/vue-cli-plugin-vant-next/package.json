@@ -11,6 +11,10 @@
     "plugin",
     "cli"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qianzhaoy/vue3-cli-preset/tree/master/plugins/vue-cli-plugin-vant-next"
+  },
   "license": "MIT",
   "homepage": "https://github.com/youzan/vant/blob/dev/README.md"
 }
