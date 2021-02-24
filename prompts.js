@@ -1,6 +1,6 @@
-const elementLang = require('./lang/element')
-const vantLang = require('./lang/vant')
 const { ELEMENT_PLUS, VANT, ELE_LOCALE_DEFAULT, VANT_LOCALE_DEFAULT } = require('./constant')
+const elementLang = require('./plugins/vue-cli-plugin-element-plus/lang')
+const vantLang = require('./plugins/vue-cli-plugin-vant-next/lang')
 
 const uiLibLang = {
   [ELEMENT_PLUS]: elementLang,
@@ -52,5 +52,24 @@ module.exports = [
       name: locale,
       value: locale
     }))
+  },
+  {
+    type: 'list',
+    name: 'cssPreprocessor',
+    message: 'css预处理器(和组件库一致即可)',
+    choices: [
+      {
+        name: 'Sass/SCSS (with dart-sass)', value: 'dartSass',
+      },
+      {
+        name: 'Sass/SCSS (with node-sass) ', value: 'nodeSass',
+      },
+      {
+        name: 'less', value: 'less',
+      },
+      {
+        name: 'stylus', value: 'stylus',
+      }
+    ]
   }
 ]

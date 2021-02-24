@@ -18,6 +18,5 @@
     },
     "@vue/cli-plugin-unit-jest": {}
   },
-  "vueVersion": "3",
-  "cssPreprocessor": "node-sass"
+  "vueVersion": "3"
 }

@@ -1,0 +1,16 @@
+{
+  "name": "vue-cli-plugin-vant-next",
+  "version": "0.0.1",
+  "description": "vue-cli 4 plugin to add vant next",
+  "main": "index.js",
+  "keywords": [
+    "vant",
+    "vant@next",
+    "vue",
+    "vue-cli",
+    "plugin",
+    "cli"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/youzan/vant/blob/dev/README.md"
+}

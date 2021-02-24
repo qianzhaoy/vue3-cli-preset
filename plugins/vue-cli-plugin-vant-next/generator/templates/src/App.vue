@@ -2,10 +2,10 @@
   <div>
     <div id="nav">
       <router-link to="/">
-        <el-button>Home</el-button>
+        <van-button>Home</van-button>
       </router-link> |
       <router-link to="/about">
-        <el-button>About</el-button>
+        <van-button>About</van-button>
       </router-link>
     </div>
     <router-view />
