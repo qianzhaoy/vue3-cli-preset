@@ -1,7 +1,6 @@
 const elementPlus = require('../plugins/vue-cli-plugin-element-plus/generator')
 const vantNextPlugin = require('../plugins/vue-cli-plugin-vant-next/generator')
-const { ELEMENT_PLUS, VANT } = require('../constant')
-const { cssPreprocessor } = require('./constants')
+const { ELEMENT_PLUS, VANT, cssPreprocessor } = require('../constant')
 
 module.exports = function(api, opts, rootOptions) {
   const utils =require('./utils')(api)
