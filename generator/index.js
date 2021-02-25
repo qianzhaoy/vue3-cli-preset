@@ -6,8 +6,10 @@ const { cssPreprocessor } = require('./constants')
 module.exports = function(api, opts, rootOptions) {
   const utils =require('./utils')(api)
 
-  api.render('./template/src/common')
-  api.render('./template/src/modules')
+  api.render({
+    './src/constants/enums.ts': './template/src/constants/enums.ts',
+    './src/constants/config.ts': './template/src/constants/config.ts',
+  })
 
   api.extendPackage({
     dependencies: {
