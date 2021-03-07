@@ -1,8 +1,10 @@
 exports.ELEMENT_PLUS = 'element-plus'
 exports.VANT = 'vant'
+exports.ANDT_VUE = 'antd-vue'
 
 exports.ELE_LOCALE_DEFAULT = 'zh-cn'
 exports.VANT_LOCALE_DEFAULT = 'zh-CN'
+exports.ANTD_LOCALE_DEFAULT = 'zh_CN'
 
 const cssPreprocessor = {
   nodeSass: {

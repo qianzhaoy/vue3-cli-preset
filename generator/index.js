@@ -1,6 +1,7 @@
 const elementPlus = require('../plugins/vue-cli-plugin-element-plus/generator')
 const vantNextPlugin = require('../plugins/vue-cli-plugin-vant-next/generator')
-const { ELEMENT_PLUS, VANT, cssPreprocessor } = require('../constant')
+const antdVueNextPlugin = require('../plugins/vue-cli-plugin-ant-design-next/generator')
+const { ELEMENT_PLUS, VANT, cssPreprocessor, ANDT_VUE } = require('../constant')
 
 module.exports = function(api, opts, rootOptions) {
   const utils =require('./utils')(api)
@@ -35,6 +36,9 @@ module.exports = function(api, opts, rootOptions) {
       break;
     case VANT:
       vantNextPlugin(api, opts, rootOptions)
+      break;
+    case ANDT_VUE:
+      antdVueNextPlugin(api, opts, rootOptions)
       break;
   }
 }

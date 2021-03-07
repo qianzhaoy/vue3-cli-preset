@@ -10,8 +10,10 @@ module.exports = (api, opts, rootOptions) => {
   api.injectImports(api.entryFile, `import installVant from './plugins/vant'`)
 
   const hasTs = api.hasPlugin('typescript')
-  api.render({
-    [`./src/plugins/vant.${hasTs ? 'ts' : 'js'}`]: './templates/src/plugins/vant.js',
+  api.render(hasTs ? {
+    './src/plugins/vant.ts': './templates/src/plugins/vant.ts',
+  } : {
+    './src/plugins/vant.js': './templates/src/plugins/vant.js',
   })
 
   if (opts.import === 'partial') {

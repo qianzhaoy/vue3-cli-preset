@@ -1,15 +1,18 @@
-const { ELEMENT_PLUS, VANT, ELE_LOCALE_DEFAULT, VANT_LOCALE_DEFAULT } = require('./constant')
+const { ELEMENT_PLUS, VANT, ANDT_VUE, ANTD_LOCALE_DEFAULT, ELE_LOCALE_DEFAULT, VANT_LOCALE_DEFAULT } = require('./constant')
 const elementLang = require('./plugins/vue-cli-plugin-element-plus/lang')
 const vantLang = require('./plugins/vue-cli-plugin-vant-next/lang')
+const antdLang = require('./plugins/vue-cli-plugin-ant-design-next/lang')
 
 const uiLibLang = {
   [ELEMENT_PLUS]: elementLang,
-  [VANT]: vantLang
+  [VANT]: vantLang,
+  [ANDT_VUE]: antdLang
 }
 
 const locale_defaults = {
   [ELEMENT_PLUS]: ELE_LOCALE_DEFAULT,
-  [VANT]: VANT_LOCALE_DEFAULT
+  [VANT]: VANT_LOCALE_DEFAULT,
+  [ANDT_VUE]: ANTD_LOCALE_DEFAULT,
 }
 
 module.exports = [
@@ -22,7 +25,10 @@ module.exports = [
         name: 'element-ui',  value: ELEMENT_PLUS,
       },
       {
-        name: 'vant', value: VANT
+        name: 'vant-next', value: VANT
+      },
+      {
+        name: 'antd-vue-next', value: ANDT_VUE
       },
     ]
   },
